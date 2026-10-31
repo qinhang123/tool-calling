@@ -42,3 +42,6 @@ vectorstore/
 *.zip
 *.7z
 *.rar
+
+# ===== Node =====
+node_modules/
