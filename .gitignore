@@ -1,0 +1,44 @@
+﻿# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ===== IDE =====
+.vscode/
+.idea/
+
+# ===== Secrets =====
+.env
+.env.*
+*.pem
+*.key
+secrets.json
+
+# ===== 模型权重（体积超 GitHub 限制，不入库）=====
+pretrain_models/
+models/
+*.safetensors
+*.h5
+*.msgpack
+*.onnx
+*.gguf
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# ===== 向量库 / 缓存 =====
+vectorstore/
+*.faiss
+.cache/
+
+# ===== 安装包 / 压缩包 =====
+*.exe
+*.msi
+*.zip
+*.7z
+*.rar
